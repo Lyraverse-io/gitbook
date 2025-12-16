@@ -6,15 +6,16 @@ Complete breakdown of fees, costs, and revenue sharing on the Lyraverse marketpl
 
 ### Primary Sales (Minting)
 ```
-Creator Receives: 100% of mint price
-Platform Fee: 0% (no platform fees on primary sales)
-Royalty: None (royalties start after primary sale)
+Sale Price Breakdown:
+├── Platform Fee: 2.5%
+├── Creator Royalty: 0-25% (set by creator)
+└── Creator Receives: Remaining amount
 ```
 
 ### Secondary Sales (Trading)
 ```
 Sale Price Breakdown:
-├── Platform Fee: 2.5%
+├── Platform Fee: 0.5%
 ├── Creator Royalty: 0-25% (set by creator)
 └── Seller Receives: Remaining amount
 ```
@@ -22,7 +23,7 @@ Sale Price Breakdown:
 ## Platform Fee Details
 
 ### Secondary Market Fee
-- **Rate**: 2.5% of total transaction value
+- **Rate**: 0.5% of total transaction value
 - **Currency**: Deducted in HYPE
 - **Timing**: Calculated and deducted at sale time
 - **Transparency**: Fee visible before purchase
@@ -31,11 +32,11 @@ Sale Price Breakdown:
 ```
 Sale Price: 10 HYPE
 
-Platform Fee: 2.5% = 0.25 HYPE
+Platform Fee: 0.5% = 0.05 HYPE
 Creator Royalty: 5% = 0.5 HYPE
-Seller Receives: 9.25 HYPE
+Seller Receives: 9.45 HYPE
 
-Total Deductions: 0.75 HYPE (7.5%)
+Total Deductions: 0.55 HYPE (5.5%)
 ```
 
 ## Creator Royalties
@@ -90,10 +91,10 @@ Creator sets 5% royalty:
 Purchase Confirmation Screen:
 Sale Price: 10 HYPE
 Creator Royalty (5%): 0.5 HYPE
-Platform Fee (2.5%): 0.25 HYPE
+Platform Fee (0.5%): 0.05 HYPE
 Gas Fee (estimated): ~0.02 HYPE
 You Pay: 10.02 HYPE
-Seller Receives: 9.25 HYPE
+Seller Receives: 9.45 HYPE
 Creator Receives: 0.5 HYPE
 ```
 
@@ -106,7 +107,7 @@ Creator Receives: 0.5 HYPE
 
 ### Platform Fee Allocation
 ```
-Platform Fee Distribution (2.5%):
+Platform Fee Distribution (0.5%):
 ├── Operations: 40%
 ├── Marketing: 30%
 ├── Development: 20%
@@ -128,8 +129,8 @@ Platform Fee Distribution (2.5%):
 ### Platform Comparison
 ```
 Lyraverse:
-- Secondary Fee: 2.5%
-- Primary Fee: 0%
+- Secondary Fee: 0.5%
+- Primary Fee: 2.5%
 - Royalty Max: 25%
 
 OpenSea:
@@ -150,9 +151,9 @@ Foundation:
 
 ### Competitive Advantages
 - **Creator Protection**: 25% royalty maximum
-- **Buyer Friendly**: Standard 2.5% fee structure
+- **Buyer Friendly**: Low 0.5% secondary fee
 - **Gas Efficient**: Optimized for Hyperliquid network
-- **No Primary Fees**: Full mint proceeds to creators
+- **Fair Mint Fees**: Competitive 2.5% minting fees
 
 ## Fee Optimization
 
@@ -182,16 +183,16 @@ Foundation:
 ```json
 {
   "standard": {
-    "secondaryFee": 0.025,
+    "secondaryFee": 0.005,
     "royaltyMax": 0.25
   },
   "premium": {
-    "secondaryFee": 0.02,
+    "secondaryFee": 0.004,
     "royaltyMax": 0.30,
     "requirements": "10k+ volume"
   },
   "enterprise": {
-    "secondaryFee": 0.015,
+    "secondaryFee": 0.003,
     "royaltyMax": 0.35,
     "requirements": "DAO governance"
   }

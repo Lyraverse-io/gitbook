@@ -185,4 +185,4 @@ Yes, REST API for collection data, NFT metadata, and marketplace information.
 
 ---
 
-**Still have questions?** Use the Support & Guide chat in the bottom-right corner or join our [Telegram community](https://t.me/lyraverse)! 🚀
+**Still have questions?** Use the Support & Guide chat in the bottom-right corner or join our [Telegram community](https://t.me/lyraverse_io)! 🚀

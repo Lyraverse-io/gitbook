@@ -30,7 +30,7 @@ Get help and support for your Lyraverse experience.
   - `#bug-reports`: Report bugs
 
 ### Telegram Groups
-- **Main Community**: [Lyraverse Telegram](https://t.me/lyraverse)
+- **Main Community**: [Lyraverse Telegram](https://t.me/lyraverse_io)
 - **Technical Support**: [Lyraverse Tech](https://t.me/lyraverse_tech)
 
 ## Issue Categories
