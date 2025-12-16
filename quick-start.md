@@ -93,7 +93,7 @@ Get up and running with Lyraverse in under 5 minutes.
 - **Common**: >12%
 
 ### Fees
-- **Platform Fee**: 2.5% on marketplace sales
+- **Platform Fee**: 2.5% on mint and 0.5% on marketplace sales
 - **Royalties**: Creator-set percentage (0-25%)
 - **Network Fees**: Minimal on Hyperliquid
 
