@@ -101,7 +101,7 @@ Get up and running with Lyraverse in under 5 minutes.
 
 - **Quick Support**: Click the chat bubble (bottom-right)
 - **Full Documentation**: Browse this guide
-- **Community**: Join our [Telegram](https://t.me/lyraverse)
+- **Community**: Join our [Telegram](https://t.me/lyraverse_io)
 - **Email**: support@lyraverse.io
 
 ---
