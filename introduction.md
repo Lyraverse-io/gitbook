@@ -42,8 +42,8 @@ Lyraverse is a feature-rich NFT ecosystem that combines:
 
 ## Platform Fees
 
-- **Minting**: Gas fees only (no platform fees)
-- **Marketplace**: 2.5% platform fee on sales
+- **Minting**: 2.5% platform fee on mint
+- **Marketplace**: 0.5% platform fee on sales
 - **Royalties**: Creator-defined (0-25% recommended)
 
 ## Security & Transparency
